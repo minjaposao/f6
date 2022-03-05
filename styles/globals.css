@@ -1,16 +1,29 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: rgb(231, 209, 209);
+  width: 600px;
+  height: 500px;
+  margin: 50px auto;
+  border: 1px solid blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.box{
+  /* width: 30px;
+  height: 30px; */
+  background-color: rgb(20, 238, 74);
+  /* align-self: center; */
+  /* justify-self: center; */
+  border: 1px solid blue;
+}
+.box1{
+  width: 60px;
+  height: 60px;
+  background-color: rgb(131, 12, 241);
+  align-self: center;
+  justify-self: center;
 }
